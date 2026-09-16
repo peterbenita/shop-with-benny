@@ -1,0 +1,169 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #d63384;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd6e7;
+}
+
+/* Main */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/* Introduction */
+.reviews-intro {
+    background-color: white;
+    text-align: center;
+    padding: 35px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.reviews-intro h2 {
+    color: #d63384;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.reviews-intro h3 {
+    color: #d63384;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+/* Reviews */
+.review-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review {
+    background-color: white;
+    width: 45%;
+    min-width: 280px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.review h3 {
+    color: #d63384;
+    margin-bottom: 10px;
+}
+
+.stars {
+    margin-bottom: 15px;
+}
+
+.review p {
+    line-height: 1.6;
+}
+
+/* Leave Review */
+.leave-review {
+    background-color: white;
+    padding: 35px;
+    border-radius: 12px;
+    margin-top: 35px;
+}
+
+.leave-review h2 {
+    color: #d63384;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    padding: 12px;
+    border: 2px solid #f3b6cf;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #d63384;
+}
+
+button {
+    margin-top: 20px;
+    padding: 13px;
+    background-color: #d63384;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b52b6f;
+}
+
+
+footer {
+    background-color: #d63384;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+footer h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 8px;
+}

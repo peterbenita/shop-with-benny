@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #d63384;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd6e7;
+}
+
+/* Main */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/* Sections */
+.about-intro,
+.about-section {
+    background-color: white;
+    padding: 35px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.about-intro {
+    text-align: center;
+}
+
+h2 {
+    color: #d63384;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+h3 {
+    color: #d63384;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+/* Products */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 280px;
+    padding: 25px;
+    background-color: #fff0f5;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product h3 {
+    font-size: 23px;
+}
+
+/* List */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+/* Call To Action */
+.about-cta {
+    text-align: center;
+    background-color: #f8c8dc;
+    padding: 50px 25px;
+    border-radius: 12px;
+}
+
+.about-cta a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 13px 25px;
+    background-color: #d63384;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.about-cta a:hover {
+    background-color: #b52b6f;
+}
+
+/* Footer */
+footer {
+    background-color: #d63384;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer h3 {
+    color: white;
+    font-size: 25px;
+}
+
+footer p {
+    margin: 8px;
+}

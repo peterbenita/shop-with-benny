@@ -1,0 +1,205 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #d63384;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd6e7;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 450px;
+    background-color: #f8c8dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero-text h2 {
+    color: #d63384;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Shop Button */
+.shop-button {
+    display: inline-block;
+    background-color: #d63384;
+    color: white;
+    padding: 14px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.shop-button:hover {
+    background-color: #b52b6f;
+}
+
+/* Welcome */
+.welcome {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.welcome h2,
+.categories h2,
+.why-us h2,
+.offer h2 {
+    color: #d63384;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+/* Categories */
+.categories {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.category-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.category {
+    background-color: white;
+    width: 280px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.category h3 {
+    color: #d63384;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.category p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.category a {
+    color: #d63384;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Why Us */
+.why-us {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.features div {
+    width: 280px;
+    padding: 25px;
+}
+
+.features h3 {
+    color: #d63384;
+    margin-bottom: 10px;
+}
+
+.features p {
+    line-height: 1.6;
+}
+
+/* Special Offer */
+.offer {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f8c8dc;
+}
+
+.offer p {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.offer a {
+    display: inline-block;
+    background-color: #d63384;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.offer a:hover {
+    background-color: #b52b6f;
+}
+
+/* Footer */
+footer {
+    background-color: #d63384;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 8px;
+}
